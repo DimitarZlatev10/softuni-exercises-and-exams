@@ -1,0 +1,37 @@
+<div class="details-container">
+  <div class="details-container-image">
+    <img src="./images/around-the-world.jpeg" />
+  </div>
+  <div class="details-container-info">
+    <h2>{{post.title}}</h2>
+    <h3>{{post.category}}</h3>
+    <h3>By: {{post.owner.email}}</h3>
+    <!--If there are followers-->
+    {{#if post.followers}}
+      <h4>Follow By: {{post.followers}}</h4>
+    {{else}}
+      <!--If there are no followers-->
+      <h4>There are no followers yet!</h4>
+    {{/if}}
+  </div>
+  <div class="details-container-content">
+    <p>{{post.content}}</p>
+  </div>
+  {{#if post.hasUser}}
+    <div class="btn-container">
+      <!-- Only for registered user and creator of the blog post-->
+      {{#if post.isOwner}}
+        <a href="/edit/{{post._id}}">Edit</a>
+        <a href="/delete/{{post._id}}">Delete</a>
+      {{else}}
+        <!-- logged in user who has not yet followed the blog-->
+        {{#if post.hasFollowed}}
+          <p class="follow-pub">You already follow this blog!</p>
+        {{else}}
+          <a href="/follow/{{post._id}}">Follow</a>
+          <!-- logged in user who has already followed the blog-->
+        {{/if}}
+      {{/if}}
+    </div>
+  {{/if}}
+</div>
