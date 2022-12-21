@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module Demo</title>
+    <script type="module" src="./scripts/app.js"></script>
+    <style>
+      #sections {
+        display: none;
+      }
+      label {
+        display: block;
+      }
+      #guestNav,#userNav{
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html" id="homeBtn">Home</a>
+      <a href="catalog.html" id="catalogBtn">Catalog</a>
+      <a href="about.html" id="aboutBtn">About us</a>
+      <div id="guestNav">
+        <a href="login.html" id="loginBtn">Login</a>
+        <a href="register.html" id="registerBtn">Register</a>
+      </div>
+      <div id="userNav">
+        <a href="javascript:void(0)" id="logoutBtn">Logout</a>
+      </div>
+    </nav>
+    <main></main>
+    <div id="sections">
+      <section id="homeSection">
+        <h1>Home Page</h1>
+        <p>Welcome to our site!</p>
+      </section>
+
+      <section id="catalogSection">
+        <h1>Catalog</h1>
+        <ul>
+          <li>Product 1</li>
+          <li>Product 2</li>
+          <li>Product 3</li>
+        </ul>
+      </section>
+      <section id="aboutSection">
+        <h1>About us</h1>
+        <p>Contact information</p>
+        <p>phone: 1+555-6996</p>
+      </section>
+      <section id="loginSection">
+        <h1>Login</h1>
+        <form>
+          <label
+            >Email:
+            <input
+              name="email"
+              type="text"
+              placeholder="Enter your email adress"
+          /></label>
+          <label
+            >Password:
+            <input
+              name="password"
+              type="password"
+              placeholder="Enter your password"
+          /></label>
+          <input type="submit" value="Login" />
+        </form>
+      </section>
+      <section id="registerSection">
+        <h1>Register</h1>
+        <form>
+          <label
+            >Email:
+            <input
+              name="email"
+              type="text"
+              placeholder="Enter your email adress"
+          /></label>
+          <label
+            >Password:
+            <input
+              name="password"
+              type="password"
+              placeholder="Enter your password"
+          /></label>
+          <label
+            >Repass:
+            <input
+              name="repass"
+              type="password"
+              placeholder="Enter your password again"
+          /></label>
+          <input type="submit" value="Register" />
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
