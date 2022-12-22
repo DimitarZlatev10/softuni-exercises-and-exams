@@ -28,6 +28,10 @@
   cursor: pointer;
 }
 
+.twitter:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
 .amazon {
   background-color: orange;
   color: black;
