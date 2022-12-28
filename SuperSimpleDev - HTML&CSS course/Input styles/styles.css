@@ -69,6 +69,7 @@
   border: none;
   margin-left: 10px;
   margin-right: 10px;
+  vertical-align: middle;
 }
 #twitterButton {
   color: white;
@@ -81,6 +82,7 @@
   font-family: Arial;
   font-weight: bold;
   cursor: pointer;
+  vertical-align: middle;
 }
 
 #twitterButton:hover {
