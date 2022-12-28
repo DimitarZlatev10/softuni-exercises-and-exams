@@ -1,10 +1,25 @@
 #nameInput,
 #emailInput {
-    display: block;
-    font-size: 15px;
-    width: 150px;
+  display: block;
+  font-size: 15px;
+  width: 150px;
 }
 
 #emailInput {
-    margin-top: 5px;
+  margin-top: 5px;
+}
+
+#survey {
+  margin-top: 100px;
+  font-family: Arial;
+  font-weight: bold;
+  width: 250px;
+  display: inline-block;
+}
+
+#yesBtn,
+#noBtn {
+  vertical-align: middle;
+  margin-bottom: 35px;
+  font-weight: bold;
 }
