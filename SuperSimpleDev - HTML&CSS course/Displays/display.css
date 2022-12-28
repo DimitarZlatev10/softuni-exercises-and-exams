@@ -1,0 +1,10 @@
+#nameInput,
+#emailInput {
+    display: block;
+    font-size: 15px;
+    width: 150px;
+}
+
+#emailInput {
+    margin-top: 5px;
+}
