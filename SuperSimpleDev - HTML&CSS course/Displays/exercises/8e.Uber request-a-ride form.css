@@ -1,0 +1,45 @@
+p {
+  font-size: 35px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+
+#location,
+#destination {
+  display: block;
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  background-color: rgb(240, 248, 255);
+  border: none;
+}
+
+#destination {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+#reqBtn {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#scheduleBtn {
+  display: inline-block;
+  background-color: rgb(240, 248, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: none;
+  cursor: pointer;
+}
