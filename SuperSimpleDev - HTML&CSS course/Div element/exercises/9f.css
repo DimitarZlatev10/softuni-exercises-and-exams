@@ -1,0 +1,51 @@
+.profile-photo {
+  width: 150px;
+  height: 150px;
+}
+
+.profile-card {
+  margin-left: 30px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 150px;
+}
+
+.profile-username {
+  padding-left: 5px;
+  font-family: Arial;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.profile-mutual {
+  padding-left: 5px;
+  font-family: Arial;
+  color: grey;
+  font-size: 14px;
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+.add-button {
+  background-color: rgb(0, 106, 255);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+    opacity: 0.8;
+}
+
+.add-button:active {
+    opacity: 0.5;
+}
