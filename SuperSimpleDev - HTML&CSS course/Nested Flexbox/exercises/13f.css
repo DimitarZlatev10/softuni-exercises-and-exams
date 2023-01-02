@@ -63,3 +63,12 @@ div {
 .title {
   line-height: 22px;
 }
+
+.profile-username {
+  font-weight: bold;
+}
+
+.profile-username-two {
+  color: grey;
+  font-weight: bold;
+}
