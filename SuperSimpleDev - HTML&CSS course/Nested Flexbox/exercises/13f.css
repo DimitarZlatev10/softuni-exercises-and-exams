@@ -1,0 +1,65 @@
+div {
+  font-family: Arial;
+}
+
+.post {
+  display: flex;
+  flex-direction: row;
+  width: 420px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.profile-picture {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.profile-names {
+  display: flex;
+  padding-bottom: 5px;
+}
+
+.profile-username {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.message {
+  line-height: 20px;
+  margin-left: 10px;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+.video-image {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(220, 220, 220);
+  margin-right: 20px;
+}
+
+.video-info {
+  flex: 1;
+}
+
+.site {
+  margin-bottom: 5px;
+  color: rgb(100, 100, 100);
+}
+
+.title {
+  line-height: 22px;
+}
