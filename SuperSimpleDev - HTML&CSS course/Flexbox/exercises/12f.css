@@ -1,0 +1,53 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: purple;
+  height: 60px;
+  align-items: center;
+}
+
+.body {
+  margin: 0;
+}
+
+.left-side {
+  margin-left: 10px;
+  color: white;
+  font-size: 17px;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.right-side {
+  margin-right: 10px;
+}
+
+.middle-side {
+  flex: 1;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.searchbox {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+
+.download {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: white;
+  border-width: 1px;
+  background-color: purple;
+  color: white;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: bold;
+}
