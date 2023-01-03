@@ -1,0 +1,60 @@
+body {
+  height: 3000px;
+}
+
+div {
+  font-family: Arial;
+}
+
+.sidebar1 {
+  background-color: rgb(33, 33, 33);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  padding-top: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.channel-picture {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.sidebar2 {
+  background-color: rgb(55, 55, 55);
+  position: fixed;
+  left: 70px;
+  top: 0;
+  bottom: 0;
+  width: 150px;
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info-text {
+  color: white;
+  font-size: 15px;
+}
+
+.create-new {
+  font-size: 25px;
+  color: rgb(150, 150, 150);
+}
+
+.channel-name {
+  color: grey;
+  padding-top: 15px;
+  color: rgb(150, 150, 150);
+}
