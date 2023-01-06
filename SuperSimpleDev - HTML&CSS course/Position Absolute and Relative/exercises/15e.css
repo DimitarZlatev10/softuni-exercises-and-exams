@@ -1,0 +1,22 @@
+.shirt-container {
+  position: relative;
+  width: 250px;
+  background-color: lightblue;
+}
+
+.shirt-image {
+  width: 100%;
+}
+
+.price-text {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
